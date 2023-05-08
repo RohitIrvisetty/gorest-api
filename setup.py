@@ -12,7 +12,7 @@ def setupbackend():
     if setuprest in Y:
         os.system('go mod tidy')
         time.sleep(1)
-        print('https://github.com/krishpranav/gorestapi\n ⭐ Give it a star if you like it')
+        print('https://github.com/RohitIrvisetty/gorestapi\n ⭐ Give it a star if you like it')
         time.sleep(1)
         print('Running gorestapi')
         os.system('go run main.go')
