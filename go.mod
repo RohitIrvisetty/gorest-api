@@ -1,4 +1,3 @@
-module github.com/krishpranav/gorestapi
 
 go 1.17
 
