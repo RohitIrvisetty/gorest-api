@@ -9,16 +9,16 @@ import (
 
 	"github.com/gin-gonic/contrib/static"
 	"github.com/gin-gonic/gin"
-	about "github.com/krishpranav/gorestapi/api/aboutapi"
-	"github.com/krishpranav/gorestapi/api/album"
-	"github.com/krishpranav/gorestapi/api/artist"
-	"github.com/krishpranav/gorestapi/api/home"
-	"github.com/krishpranav/gorestapi/api/profile"
+	about "github.com/RohitIrvisetty/gorestapi/api/aboutapi"
+	"github.com/RohitIrvisetty/gorestapi/api/album"
+	"github.com/RohitIrvisetty/gorestapi/api/artist"
+	"github.com/RohitIrvisetty/gorestapi/api/home"
+	"github.com/RohitIrvisetty/gorestapi/api/profile"
 	_ "github.com/mattn/go-sqlite3"
 )
 
 var aboutapp = []about.Aboutapi{
-	{App: "gorestapi", Author: "krishpranav", Github: "https://github.com/krishpranav/gorestapi", Version: 4},
+	{App: "gorestapi", Author: "RohitIrvisetty", Github: "https://github.com/RohitIrvisetty/gorestapi", Version: 4},
 }
 
 var albums = []album.Album{
