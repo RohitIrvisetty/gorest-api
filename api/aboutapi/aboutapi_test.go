@@ -6,7 +6,7 @@ import (
 )
 
 var AboutVar = []Aboutapi{
-	{App: "Test", Github: "https://github.com/krishpranav/gorestapi", Author: "Krishpranav", Version: 4},
+	{App: "Test", Github: "https://github.com/RohitIrvisetty/gorestapi", Author: "RohitIrvisetty", Version: 4},
 }
 
 func AboutTest(t *testing.T, err error) {
