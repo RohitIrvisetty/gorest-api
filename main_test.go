@@ -4,11 +4,11 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	about "github.com/krishpranav/gorestapi/api/aboutapi"
+	about "github.com/RohitIrvisetty/gorestapi/api/aboutapi"
 )
 
 var aboutrestapi = []about.Aboutapi{
-	{App: "gorestapi", Author: "Krishpranav", Github: "https://github.com/krishpranav/gorestapi", Version: 2},
+	{App: "gorestapi", Author: "RohitIrvisetty", Github: "https://github.com/RohitIrvisetty/gorestapi", Version: 2},
 }
 
 /* perform post request */
